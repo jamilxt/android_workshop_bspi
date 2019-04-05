@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CgpaCalculatorActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total CGPA"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/totalCgpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/semester_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="1st Semester" />
+
+    <EditText
+        android:id="@+id/semester_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="2nd Semester" />
+
+    <EditText
+        android:id="@+id/semester_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="3rd Semester" />
+
+    <EditText
+        android:id="@+id/semester_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="4th Semester" />
+
+    <EditText
+        android:id="@+id/semester_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="5th Semester" />
+
+    <EditText
+        android:id="@+id/semester_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="6th Semester" />
+
+    <EditText
+        android:id="@+id/semester_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="7th Semester" />
+
+    <EditText
+        android:id="@+id/semester_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="8th Semester" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:onClick="calcuteCgpa"
+        android:text="Calculate"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

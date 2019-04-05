@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Bangladesh Sweden Polytechnic Institute (BSPI) is one of the famous and well reputed technical educational institute in Bangladesh. It was established at Kaptai under Rangamati Hill Tracts in 1963 with the help of Sweden Government. The total campus area is 30.95 acre. BSPI is one of the Government institute under ministry of education through Directorate of technical education while the academic program is controlled by the Bangladesh Technical Education Board (BTEB). It offers 4-years (8 Semester) Diploma-in-Engineering courses.
+There are six Departments in this institute. Now the total picture of the Departments and its respective seat capacities with 4 years course are: (as on 2018)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</LinearLayout>
