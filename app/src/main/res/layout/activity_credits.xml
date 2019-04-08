@@ -65,13 +65,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Sponsored by"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            android:text="Go"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:visibility="gone" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -120,7 +122,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text="386662, 386611, 386602" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -132,7 +134,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text="386591, 386575, 386598, 386682, 386580" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -144,7 +146,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text="386587, 386665, 386631, 386653, 386605, 386682, 386670" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -156,19 +158,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text="386640, 386607, 386616, 386609, 386624" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="QA Engineer"
+            android:text="Content Writer"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text="386603, 386627" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -180,7 +182,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text="386608, 386589" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -192,7 +194,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text="386667, 386633, 386669" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -204,7 +206,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text="386637, 386636" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -216,7 +218,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="6Hours Company"
+            android:text="6Hours Software Company Ltd."
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
     </LinearLayout>

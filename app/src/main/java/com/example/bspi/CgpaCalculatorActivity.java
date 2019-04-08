@@ -33,12 +33,12 @@ public class CgpaCalculatorActivity extends AppCompatActivity {
 
         double semester_one = Double.valueOf(semester_1.getText().toString()) * 0.05;
         double semester_two = Double.valueOf(semester_2.getText().toString()) * 0.05;
-        double semester_three = Double.valueOf(semester_3.getText().toString()) * 0.05;
-        double semester_four = Double.valueOf(semester_4.getText().toString()) * 0.10;
-        double semester_five = Double.valueOf(semester_4.getText().toString()) * 0.15;
-        double semester_six = Double.valueOf(semester_4.getText().toString()) * 0.20;
-        double semester_seven = Double.valueOf(semester_4.getText().toString()) * 0.25;
-        double semester_eight = Double.valueOf(semester_4.getText().toString()) * 0.15;
+        double semester_three = Double.valueOf(semester_3.getText().toString()) * 0.075;
+        double semester_four = Double.valueOf(semester_4.getText().toString()) * 0.075;
+        double semester_five = Double.valueOf(semester_5.getText().toString()) * 0.15;
+        double semester_six = Double.valueOf(semester_6.getText().toString()) * 0.20;
+        double semester_seven = Double.valueOf(semester_7.getText().toString()) * 0.25;
+        double semester_eight = Double.valueOf(semester_8.getText().toString()) * 0.15;
 
         double total_cgpa = semester_one + semester_two + semester_three + semester_four + semester_five + semester_six + semester_seven + semester_eight;
 
